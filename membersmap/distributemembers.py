@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+# vim:fileencoding=utf-8
+
 # Copyright © 2024, Place publique, Xavier Schoepfer
 # GNU GENERAL PUBLIC LICENSE Version 3
 
