@@ -26,7 +26,8 @@ def test(dept, df):
 
 def main():
     """
-    Choisissez l'une des options suivantes :
+    Programme de test de la bibliothèque « membersmap »,
+    choix des options du jeu de test :
 
         0   département № 26, fichier d'extration correct ;
 
