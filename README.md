@@ -2,7 +2,7 @@
 
 ## authors
 
-- [Xavier Schoepfer](8875625+schx006@users.noreply.github.com)
+- [Xavier Schoepfer](mailto:8875625+schx006@users.noreply.github.com)
 
 ## license
 
