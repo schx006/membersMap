@@ -1,0 +1,15 @@
+# GitHub
+.git
+.gitattributes
+
+# MacOS
+.DS_Store
+
+# MS Windows
+Thumbs.db
+
+# Python
+__pycache__
+
+# Visual studio code
+membersmap.code-workspace
