@@ -44,5 +44,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   territories)
 
 
-[unreleased]: https://github.com/schx006/membersMap/compare/v0.7.0-beta...HEAD
+[unreleased]: https://github.com/schx006/membersMap/compare/v0.7.0-beta...HEAD  
 [0.7.0-beta]: https://github.com/schx006/membersMap/releases/tag/v0.7.0-beta
