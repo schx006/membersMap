@@ -50,7 +50,7 @@ class DistributeMembers:
     """
     cf. documentation du module.
     """
-    refFileList = ['./distributionKeys/insee/v_commune_2024.csv', './distributionKeys/insee/v_commune_comer_2024.csv']
+    refFileList = ['./data/insee/v_commune_2024.csv', './data/insee/v_commune_comer_2024.csv']
 
     def __init__(self, department):
         if self.__validDept(department):
@@ -250,14 +250,29 @@ class DistributeMembers:
                         # aditionnal process for "PARIS", "LYON", "MARSEILLE"
                         match comcode:
                             case '75056':
-                                district = int(zipcode[-2:])
-                                comcode = str(5100 + district)
+                                district = int(zipcode[-3:])
+                                if (district >= 1 and district <= 20):
+                                    comcode = str(75100 + district)
+                                else:
+                                    msg = "Le code postal \"" + zipcode
+                                    msg += "\" n'a pas permis de déterminer l'arrondissement."
+                                    self.warnings.append(msg)
                             case '69123':
-                                district = int(zipcode[-1:])
-                                comcode = str(69380 + district)
+                                district = int(zipcode[-3:])
+                                if (district >= 1 and district <= 9):
+                                    comcode = str(69380 + district)
+                                else:
+                                    msg = "Le code postal \"" + zipcode
+                                    msg += "\" n'a pas permis de déterminer l'arrondissement."
+                                    self.warnings.append(msg)
                             case '13055':
-                                district = int(zipcode[-2:])
-                                comcode = str(13200 + district)
+                                district = int(zipcode[-3:])
+                                if (district >= 1 and district <= 16):
+                                    comcode = str(13200 + district)
+                                else:
+                                    msg = "Le code postal \"" + zipcode
+                                    msg += "\" n'a pas permis de déterminer l'arrondissement."
+                                    self.warnings.append(msg)
                             case _:
                                 pass
                         # update counter

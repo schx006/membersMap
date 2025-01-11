@@ -1,4 +1,4 @@
-VERSION = "0.5.0 alpha"
+VERSION = "v0.7.0-beta"
 
 __all__ = [
    "membersmap",
