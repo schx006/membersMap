@@ -12,7 +12,7 @@ from membersmap import DistributeMembers
  
 def main():
     # if the data file does NOT exist, DO NOTHING
-    datafile = './data/adh26-2024-10-28.csv'
+    datafile = '../data/adh26-2024-10-28.csv'
     if os.path.isfile(datafile):
         # initialize an object for the department № 26
         count26 = DistributeMembers('26')

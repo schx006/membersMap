@@ -50,7 +50,7 @@ class DistributeMembers:
     """
     cf. documentation du module.
     """
-    refFileList = ['./data/insee/v_commune_2024.csv', './data/insee/v_commune_comer_2024.csv']
+    refFileList = ['../data/insee/v_commune_2024.csv', '../data/insee/v_commune_comer_2024.csv']
 
     def __init__(self, department):
         if self.__validDept(department):
