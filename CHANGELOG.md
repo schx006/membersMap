@@ -16,7 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 * …
-* Corrections de style des fichiers `*.md`
+* Corrections de style des fichiers _Markdown_.
 * Déplacement des fichiers de code dans le répertoire “src”.
 * Mise à jour du fichier “README.md”.
 
