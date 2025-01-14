@@ -6,7 +6,7 @@ pour les villes de Lyon, Marseille et Paris.
 
 Notes :
 
-* Les scripts traitent des donées anonymisées.
+* Les scripts traitent des données anonymisées.
 * Actuellement, le fichier des adhérents débarassé des champs « sensibles »
   (nom, prénom, numéros de téléphone, profession…)
   doit être au format `CSV`.
