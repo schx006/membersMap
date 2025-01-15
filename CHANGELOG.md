@@ -9,16 +9,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-* Fichier “.vscode/settings.json”, configuration de l'extention “markdownlint”
-  (vérification de style dy langage de balisage _Markdown_).
-* Répertoire “src”.
+* …
+* The main library file (“src/membersmap/membersmap.py”).
+* The “.vscode/settings.json” file, configuration for the “markdownlint” extention
+  (Markdown/CommonMark linting and style checking for Visual Studio Code).
+* The “src” directory.
 
 ### Changed
 
+* The “CHANGELOG.md” file updated.
+* The “src/membersmap/__init.py” file updated.
 * …
-* Corrections de style des fichiers _Markdown_.
-* Déplacement des fichiers de code dans le répertoire “src”.
-* Mise à jour du fichier “README.md”.
+* Style corrections in the _Markdown_ files.
+* The code scripts have been moved to “src” directory.
+* The “README.md” file updated.
 
 ### Removed
 
@@ -46,7 +50,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * The “adh26-2024-10-28.csv” file, which contains the anonymized extraction
   of Drôme members.
 * INSEE nomenclature of French municipalities (mainland France and overseas
-  territories)
+  territories).
 
 [Unreleased]: https://github.com/schx006/membersMap/compare/v0.7.0-beta...HEAD  
 [0.7.0-beta]: https://github.com/schx006/membersMap/releases/tag/v0.7.0-beta

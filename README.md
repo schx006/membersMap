@@ -1,8 +1,8 @@
 # MembersMap
 
-L'objectif est de ce module : montrer sur une carte le nombre d'adhérents
-d'un département, commune par commune et arrondissement par arrondissement
-pour les villes de Lyon, Marseille et Paris.
+Ce module affiche sur une carte le nombre d'adhérents d'un département,
+commune par commune et arrondissement par arrondissement pour les villes
+de Lyon, Marseille et Paris.
 
 Notes :
 
@@ -14,6 +14,10 @@ Notes :
   utilisés dans le traitement des données. Il n'est cependant pas nécessaire
   de purger le fichier des adhérents de tous les champs non utilisés dans
   le traitement (ils sont tout simplement ignorés).
+
+| Version |
+| :--: |
+| v0.7.4-beta.1 |
 
 ## auteurs
 
